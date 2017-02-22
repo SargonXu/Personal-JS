@@ -152,19 +152,19 @@ var EventUnit = {
 
 		}
 
-	}
+	},
 	// 获取事件对象event
 	getEvent : function(event){
 
 		return event? event : window.event;
 
-	}
+	},
 	// 获取事件目标
 	getTarget : function(event){
 
 		return event.target || event.srcElement;
 
-	}
+	},
 	// 阻止事件默认行为
 	preventDefault : function(event){
 
@@ -178,7 +178,7 @@ var EventUnit = {
 
 		}
 
-	}
+	},
 	// 取消事件冒泡
 	stopPropagation : function(event){
 
